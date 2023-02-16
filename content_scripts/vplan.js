@@ -65,15 +65,7 @@ document.querySelector("tr.list:nth-child(2) th:nth-child(3)").innerHTML = "stat
 document.querySelector("tr.list:nth-child(2) th:nth-child(4)").innerHTML = "statt Fach"
 document.querySelector("tr.list:nth-child(2) th:nth-child(5)").innerHTML = "Lehrer bzw. Vertretung"
 
-import { readFile } from 'fs';
-
-readFile('code.txt', 'utf-8', (err, data) => {
-    if (err) throw err;
- 
-    // Converting Raw Buffer to text
-    // data using tostring function.
-    console.log(data);
-})
+text = "code.txt"
 
 
 

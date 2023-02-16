@@ -1,0 +1,25 @@
+{
+
+    "manifest_version": 2,
+    "name": "BetterVPlan",
+    "version": "1.3.0",
+  
+    "description": "Konvertiert die Farben von vertretungsplan.musterschule.de zu Dark Mode, die Farben für einzelne Bereiche sind frei wählbar (ab Version 3.0)",
+  
+    "icons": {
+      "48": "icons/bvp.png"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["*://*.musterschule.de/*"],
+        "js": ["content_scripts/vplan.js"],
+        "css": ["content_scripts/vplan.css"]
+      }
+    
+    ],
+    "permissions": [
+      "activeTab"
+    ]
+  
+}

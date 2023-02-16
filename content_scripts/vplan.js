@@ -30,27 +30,21 @@ for (let i = 0; i < nodeList.length; i++) {
 
 /*Default Farben im LocalStorage speichern*/
 if (localStorage.getItem("bgColor") == null){
-  console.log("HALLO")
   localStorage.setItem("bgColor", "#010409")
 }
 /*if (localStorage.getItem("oddColor") == null){
-  console.log("HALLO")
   localStorage.setItem("oddColor", "#0D1117")
 }*/
 if (localStorage.getItem("evenColor") == null){
-  console.log("HALLO")
   localStorage.setItem("evenColor", "#161B22")
 }
 if (localStorage.getItem("roomColor") == null){
-  console.log("HALLO")
   localStorage.setItem("roomColor", "#22712E")
 }
 if (localStorage.getItem("eventColor") == null){
-  console.log("HALLO")
   localStorage.setItem("eventColor", "#1B12B1")
 }
 if (localStorage.getItem("newColor") == null){
-  console.log("HALLO")
   localStorage.setItem("newColor", "#E61367")
 }
 /*Farben*/
@@ -70,3 +64,34 @@ document.querySelector("tr.list:nth-child(2) th:nth-child(2)").innerHTML = "Stun
 document.querySelector("tr.list:nth-child(2) th:nth-child(3)").innerHTML = "statt Lehrer"
 document.querySelector("tr.list:nth-child(2) th:nth-child(4)").innerHTML = "statt Fach"
 document.querySelector("tr.list:nth-child(2) th:nth-child(5)").innerHTML = "Lehrer bzw. Vertretung"
+
+import { readFile } from 'fs';
+
+readFile('code.txt', 'utf-8', (err, data) => {
+    if (err) throw err;
+ 
+    // Converting Raw Buffer to text
+    // data using tostring function.
+    console.log(data);
+})
+
+
+
+
+
+
+const script = document.createElement('script');
+script.innerHTML = 
+
+document.getElementsByTagName('body')[0].appendChild(script);
+
+
+
+
+const inputColor = document.createElement('input');
+inputColor.placeholder = 'Farbe eingeben';
+inputColor.id = 'inputColor';
+inputColor.setAttribute("onkeydown", "functInputColor()");
+
+document.getElementsByTagName('body')[0].appendChild(inputColor);
+

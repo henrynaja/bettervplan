@@ -121,7 +121,7 @@ dt.simcal-day-label > span {
 }
 div.inside-article{
     background-color: var(--main-bg-color) !important;
-    color: white !important;
+    color: rgb(255, 0, 0) !important;
 }
 #site-navigation{
     background-color: var(--main-nav-color);

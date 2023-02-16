@@ -1,8 +1,6 @@
-
+/*Blendet die Hofdienst Box aus*/
 const hofdienst = document.querySelector("table.info  tr:nth-child(2)  td");
-console.log(hofdienst)
 if (hofdienst.innerHTML.includes("Hofdienst:")){
-  console.log(hofdienst.innerHTML)
   hofdienst.setAttribute("id", "hofdienst")
   document.body.style.setProperty('--main-hofdienst', "none");
 }
@@ -17,23 +15,19 @@ header.id = "darkmode";
 header.setAttribute("onclick", "darkMode()");
 document.body.appendChild(header);
 */
+/*Fügt eigenes Icon für den Tab ein*/ 
 const link = document.createElement('link');
 link.href = 'https://cdn.discordapp.com/attachments/773914479384985650/1021425143467229194/bvp.png';
 link.rel = 'icon';
 
 document.getElementsByTagName('head')[0].appendChild(link);
 
-/*const bildHeader = document.createElement('img');
-bildHeader.src = 'https://cdn.discordapp.com/attachments/773914479384985650/1021425143467229194/bvp.png';
-bildHeader.alt = 'Better Vertretungsplan Icon im Header';
-
-document.getElementById("titelLinks").appendChild(bildHeader);*/
-
 /*Verbuggten Style der Tabelle zurücksetzen*/
 const nodeList = document.querySelectorAll("td");
 for (let i = 0; i < nodeList.length; i++) {
   nodeList[i].style = "";
 }
+
 /*Default Farben im LocalStorage speichern*/
 if (localStorage.getItem("bgColor") == null){
   console.log("HALLO")
@@ -71,3 +65,8 @@ console.log([bgColor, oddColor, evenColor, roomColor, eventColor, newColor])
 
 document.body.style.setProperty('--main-bg-color', bgColor);
 
+/*Verbesserung der Tabellenbeschriftungen*/
+document.querySelector("tr.list:nth-child(2) th:nth-child(2)").innerHTML = "Stunden"
+document.querySelector("tr.list:nth-child(2) th:nth-child(3)").innerHTML = "statt Lehrer"
+document.querySelector("tr.list:nth-child(2) th:nth-child(4)").innerHTML = "statt Fach"
+document.querySelector("tr.list:nth-child(2) th:nth-child(5)").innerHTML = "Lehrer bzw. Vertretung"

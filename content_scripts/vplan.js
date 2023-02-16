@@ -1,11 +1,11 @@
 
-const hofdienst = document.querySelector("table.info  tr:nth-child(2)  td");
+/*const hofdienst = document.querySelector("table.info  tr:nth-child(2)  td");
 console.log(hofdienst)
 if (hofdienst.innerHTML.includes("Hofdienst:")){
   hofdienst.style.display = "none";
   console.log("Hofdienst detected")
 }
-
+*/
 /*Color Code zum teilen mit Freunden erstellen*/
 /*Dark Mode Button hinzufügen*/
 /*

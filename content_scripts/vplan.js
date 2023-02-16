@@ -1,11 +1,13 @@
 
-/*const hofdienst = document.querySelector("table.info  tr:nth-child(2)  td");
+const hofdienst = document.querySelector("table.info  tr:nth-child(2)  td");
 console.log(hofdienst)
 if (hofdienst.innerHTML.includes("Hofdienst:")){
-  hofdienst.style.display = "none";
-  console.log("Hofdienst detected")
+  console.log(hofdienst.innerHTML)
+  hofdienst.setAttribute("id", "hofdienst")
+  document.body.style.setProperty('--main-hofdienst', "none");
 }
-*/
+
+
 /*Color Code zum teilen mit Freunden erstellen*/
 /*Dark Mode Button hinzufügen*/
 /*

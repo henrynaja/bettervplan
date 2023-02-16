@@ -1,5 +1,6 @@
 /*Variablen um die Farben mit JavaScript zu ändern*/
 :root {
+    --main-hofdienst: block;
     --main-bg-color: #010409;
     --main-odd-color: #0D1117;
     --main-even-color: #161B22;
@@ -7,7 +8,7 @@
     --event-color: blue;
     --new-color: yellow;
     --main-nav-color: #0069A8;
-    --main-footer-text: "©2019-2023 Musterschule. Pläne bereitgestellt von Untis Stundenplan Software, BetterVPlan Version 1.3 (20.1.2023) erstellt von HenryNaja"
+    --main-footer-text: "©2019-2023 Musterschule. Pläne bereitgestellt von Untis Stundenplan Software, BetterVPlan Version 1.3.1 (16.2.2023) erstellt von HenryNaja"
   }
 body{
     background-color: var(--main-bg-color);
@@ -148,6 +149,6 @@ td.info{
 th.info{
     padding: 10px;
 }
-table.info tr:nth-child(2) td{
-    display: none;
+#hofdienst{
+    display: var(--main-hofdienst);
 }

@@ -11,4 +11,4 @@ Ein Addon für Firefox um den Vertretungsplan der Musterschule zu verbessern.
 Download im <a href="https://addons.mozilla.org/de/firefox/addon/bettervplan/">Firefox Webstore<a> oder über GitHub
 
 # Lizenz
- This work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International 
+ This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International </a>.

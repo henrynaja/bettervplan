@@ -5,6 +5,9 @@ if (hofdienst.innerHTML.includes("Hofdienst:")){
   document.body.style.setProperty('--main-hofdienst', "none");
 }
 
+const footerClass = document.querySelector("footer");
+footerClass.style.color = "red";
+
 
 /*Color Code zum teilen mit Freunden erstellen*/
 /*Dark Mode Button hinzufügen*/

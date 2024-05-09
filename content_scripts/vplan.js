@@ -6,7 +6,7 @@ if (hofdienst.innerHTML.includes("Hofdienst:")){
 }
 
 const footerClass = document.querySelector("footer");
-footerClass.innerHTML = "©2019-2024 Musterschule. Pläne bereitgestellt von Untis Stundenplan Software <br><br> <a href=https://github.com/HY0077/bettervplan>BetterVPlan</a> Version 1.3.2 © 05/2024 by <a href=https://github.com/HY0077>HenryNaja</a> is licensed under <a href=https://creativecommons.org/licenses/by-nc-sa/4.0>CC BY-NC-SA 4.0</a>"
+footerClass.innerHTML = "©2019-2024 Musterschule. Pläne bereitgestellt von Untis Stundenplan Software <br><br> <a href=https://github.com/HY0077/bettervplan>BetterVPlan</a> Version 1.3.3 © 05/2024 by <a href=https://github.com/HY0077>HenryNaja</a> is licensed under <a href=https://creativecommons.org/licenses/by-nc-sa/4.0>CC BY-NC-SA 4.0</a>"
 
 
 /*Color Code zum teilen mit Freunden erstellen*/
@@ -68,15 +68,6 @@ document.querySelector("tr.list:nth-child(2) th:nth-child(3)").innerHTML = "stat
 document.querySelector("tr.list:nth-child(2) th:nth-child(4)").innerHTML = "statt Fach"
 document.querySelector("tr.list:nth-child(2) th:nth-child(5)").innerHTML = "Lehrer bzw. Vertretung"
 
-text = "code.txt"
-
-
-
-
-
-
-const script = document.createElement('script');
-script.innerHTML = 
 
 document.getElementsByTagName('body')[0].appendChild(script);
 

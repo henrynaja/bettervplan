@@ -6,7 +6,7 @@ if (hofdienst.innerHTML.includes("Hofdienst:")){
 }
 
 const footerClass = document.querySelector("footer");
-footerClass.style.color = "red";
+footerClass.innerHTML = "©2019-2024 Musterschule. Pläne bereitgestellt von Untis Stundenplan Software <br><br> <a href=https://github.com/HY0077/bettervplan>BetterVPlan</a> Version 1.3.2 © 05/2024 by <a href=https://github.com/HY0077>HenryNaja</a> is licensed under <a href=https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1>CC BY-NC-SA 4.0</a>"
 
 
 /*Color Code zum teilen mit Freunden erstellen*/

@@ -20,4 +20,4 @@ This software is distributed in the hope that it will be useful, but WITHOUT ANY
 You should have received a copy of the GNU General Public License along with this program. If not, see [https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html).
 
 # Disclaimer
-<h2>Diese Erweiterung steht in keinem Zusammenhang mit der Musterschule Frankfurt und wurde unabhängig entwickelt.</h2>
+<h3>Diese Erweiterung steht in keinem Zusammenhang mit der Musterschule Frankfurt und wurde unabhängig entwickelt.</h3>

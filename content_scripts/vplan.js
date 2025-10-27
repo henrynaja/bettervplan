@@ -6,7 +6,7 @@ if (hofdienst.innerHTML.includes("Hofdienst:")){
 }
 
 const footerClass = document.querySelector("footer");
-footerClass.innerHTML = "©2019-2024 Musterschule. Pläne bereitgestellt von Untis Stundenplan Software <br><br> <a href=https://github.com/HY0077/bettervplan>BetterVPlan</a> Version 1.3.3 © 05/2024 by <a href=https://github.com/HY0077>HenryNaja</a> is licensed under <a href=https://creativecommons.org/licenses/by-nc-sa/4.0>CC BY-NC-SA 4.0</a>"
+footerClass.innerHTML = "©2019-2025 Musterschule. Pläne bereitgestellt von Untis Stundenplan Software <br><br> <a href=https://github.com/henrynaja/bettervplan>BetterVPlan</a> Version 1.3.4 © 10/2025 by <a href=https://github.com/henrynaja>HenryNaja</a> under <a href=https://www.gnu.org/licenses/gpl-3.0.txt0>GNU GPL 3.0</a>"
 
 
 /*Color Code zum teilen mit Freunden erstellen*/
@@ -20,7 +20,7 @@ document.body.appendChild(header);
 */
 /*Fügt eigenes Icon für den Tab ein*/ 
 const link = document.createElement('link');
-link.href = 'https://cdn.discordapp.com/attachments/773914479384985650/1021425143467229194/bvp.png';
+link.href = 'https://github.com/henrynaja/bettervplan/blob/e38a3221a8b42ed2d6fd06e74d2dde08926c95bf/icons/bvp.png?raw=true';
 link.rel = 'icon';
 
 document.getElementsByTagName('head')[0].appendChild(link);
